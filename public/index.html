@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Letter Sign Up Page</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="antialiased">
+
+    <div class="w-full min-h-screen bg-charcoalGrey grid place-items-center">
+        <div class="w-full md:w-[750px] md:rounded-3xl md:px-4 md:min-h-0 md:h-[500px] min-h-screen flex md:items-center md:first-letter:justify-center flex-col md:flex-row-reverse bg-white">
+            <img class="block md:hidden" src="images/illustration-sign-up-mobile.svg" alt="">
+            <img class="md:w-[300px] hidden md:block" src="images/illustration-sign-up-desktop.svg" alt="">
+            <div class="md:w-full space-y-5 px-6 py-8">
+                <h1 class="text-4xl font-bold text-darkSlateGrey">Stay Updated!</h1>
+                <p class="text-charcoalGrey">
+                    Join 60,000+ product managers receiving monthly updates on:
+                </p>
+
+                <div class="space-y-3 text-charcoalGrey">
+                    <div class="flex space-x-4 items-start">
+                        <img src="images/icon-list.svg" alt="">
+                        <p>
+                            Product discovery and building what matters
+                        </p>
+                    </div>
+                    <div class="flex space-x-4 items-start">
+                        <img src="images/icon-list.svg" alt="">
+                        <p>
+                            Measuring to ensure updates are a success
+                        </p>
+                    </div>
+                    <div class="flex space-x-4 items-start">
+                        <img src="images/icon-list.svg" alt="">
+                        <p>
+                            And much more!
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <form action="" class="space-y-2">
+                        <div class="flex justify-between">
+                            <label for="Email" class="text-xs text-darkSlateGrey font-bold">Email address</label>
+                            <p class="error-msg text-red-600 text-xs font-bold"></p>
+                        </div>
+
+                        <input type="email"
+                            class="email-input border rounded-md w-full px-4 py-4 border-mainGrey
+                            hover:border-black focus:outline-none focus:ring-1 focus:ring-black placeholder:text-mainGrey"
+                            placeholder="email@company.com">
+
+                    </form>
+                </div>
+
+                <a
+                    href="#"
+                    id="submit-btn"
+                    class="w-full block text-white text-center py-4 rounded-md cursor-pointer bg-darkSlateGrey hover:bg-tomato hover:shadow-lg">
+                    Subscribe to monthly newsletter
+                </a>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
